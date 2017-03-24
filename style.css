@@ -1,0 +1,98 @@
+body {
+    font-family: 'Petit Formal Script', cursive;
+    /*background-image: url(kaboompics.com_Modern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: #474747;
+}
+
+#quiz {
+    display: none;
+    display: flex;
+}
+
+#prev {
+    display: none;
+    order: -1;
+}
+
+#start-quiz {
+    display: none;
+    width: 90px;
+}
+
+#start {
+    display: none;
+    width: 100%;
+}
+
+.button {
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #DCDCDC;
+    color: white;
+    margin: 0 2px 0 5px;
+    text-align: center;
+    float: left;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    padding: 0 25px 40px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.qList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    line-height: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#question-box p {
+    transition: font-size 1s ease-in-out;
+    font-size: 0.5em;
+}
+
+#question-box .animate {
+    font-size: 1.5em;
+    -webkit-animation: scale-up-hor-center 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1s both;
+	-moz-animation: scale-up-hor-center 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1s both;
+	animation: scale-up-hor-center 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1s both;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    width: 100%;
+}
+
+input {
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}

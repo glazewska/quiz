@@ -1,0 +1,20 @@
+{
+    "questions": [{
+        "question": "What does punctuality mean?",
+        "choices": ["9am means 20 minutes earlier", "if it's 9:03 and you're not here, you're late", "let's chill. 9:13 is perfect to make some coffee and turn the computer on"],
+        "bestAnswer": 1
+    }, {
+        "question": "Do you believe in positive work atmosphere?",
+        "choices": ["I don't care. I just like to have things done", "It's the most important. All of my coworkers should like me", "Good atmosphere can boost productivity"],
+        "bestAnswer": 2
+    }, {
+        "question": "Loyalty?",
+        "choices": ["I'm your boss. Who can you be more loyal to?", "What does it have to do with a job?", "I would rather see my employees loyal to each other than to the boss"],
+        "bestAnswer": 2
+    }, {
+        "question": "Overtime?",
+        "choices": ["If you cannot do this on time, it's your fault. I don't care how much sleep you need", "It's very possible that I will ask you to do some", "Deadlines and big projects - isn't that obvious?"],
+        "bestAnswer": 1
+
+    }]
+}
