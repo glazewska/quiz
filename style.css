@@ -4,11 +4,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;*/
     background-color: #474747;
+    margin: 0;
+    padding: 0;
 }
 
 #quiz {
     display: none;
     display: flex;
+    width: inherit;
 }
 
 #prev {
@@ -36,7 +39,6 @@ body {
     color: white;
     margin: 0 2px 0 5px;
     text-align: center;
-    float: left;
 }
 
 .button a {
@@ -45,7 +47,7 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 90%;
     margin: auto;
     padding: 0 25px 40px 10px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -59,6 +61,7 @@ body {
     padding: 0;
     margin-top: 0;
     line-height: 30px;
+    word-wrap: break-word;
 }
 
 .buttons {
@@ -66,18 +69,23 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 20px;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #E3ABBE;
 }
 
 #question-box p {
     transition: font-size 1s ease-in-out;
-    font-size: 0.5em;
+    font-size: 0.4em;
 }
 
 #question-box .animate {
-    font-size: 1.5em;
+    font-size: 1.3em;
     -webkit-animation: scale-up-hor-center 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1s both;
-	-moz-animation: scale-up-hor-center 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1s both;
-	animation: scale-up-hor-center 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1s both;
+    -moz-animation: scale-up-hor-center 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1s both;
+    animation: scale-up-hor-center 1s cubic-bezier(0.190, 1.000, 0.220, 1.000) 1s both;
 }
 
 label {
@@ -85,6 +93,12 @@ label {
     display: inline-block;
     letter-spacing: 1.5px;
     width: 100%;
+}
+
+label:hover {
+    color: #E3ABBE;
+    transform: scale(1.1);
+    margin-left: 30px;
 }
 
 input {
@@ -95,4 +109,16 @@ input {
 h1 {
     text-align: center;
     padding-top: 20px;
+}
+
+.about {
+    margin-top: 30px;
+    margin-bottom: -35px;
+}
+
+.about a {
+    text-decoration: none;
+    color: #A3E0D6;
+    display: block;
+    font-size: 0.8em;
 }
