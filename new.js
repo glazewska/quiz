@@ -143,7 +143,7 @@ $(document).ready(function() {
         finalPercentage = (Math.floor((matchingPoints / questions.length) * 100));
 
         if (finalPercentage <= 50) {
-            finalScore.append("We're matching " + finalPercentage + "%. Maybe we could still get along");
+            finalScore.append("We're matching " + finalPercentage + "%. I am probably more demanding of myself.");
         } else if (finalPercentage > 60 || finalPercentage < 80) {
             finalScore.append("We're matching " + finalPercentage + "%. I would love to work with you");
         } else {
