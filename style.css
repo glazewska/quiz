@@ -98,7 +98,7 @@ label {
 label:hover {
     color: #E3ABBE;
     transform: scale(1.1);
-    margin-left: 30px;
+    padding-left: 40px;
 }
 
 input {
@@ -121,4 +121,9 @@ h1 {
     color: #A3E0D6;
     display: block;
     font-size: 0.8em;
+}
+
+#about-link {
+    display: flex;
+    justify-content: flex-end;
 }
